@@ -25,7 +25,9 @@ class WXFriendsController: WXBaseViewController {
 extension WXFriendsController{
     override func setUI() {
         super.setUI()
-        
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "添加朋友", style: .plain, target: self, action: #selector(addFriend))
+
+        let img = UIImage(named:"contacts_add_friend")?.withRenderingMode(.alwaysOriginal)
+
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: img, style: .plain, target: self, action: #selector(addFriend))
     }
 }

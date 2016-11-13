@@ -12,6 +12,7 @@ class WXMainViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        UIApplication.shared.statusBarStyle = UIStatusBarStyle.lightContent     //状态栏字体改为白色
 
         setChild()
     }
