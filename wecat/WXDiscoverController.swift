@@ -8,6 +8,6 @@
 
 import UIKit
 
-class WXDIscoverController: WXBaseViewController {
+class WXDiscoverController: WXBaseViewController {
 
 }

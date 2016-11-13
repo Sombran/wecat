@@ -14,7 +14,7 @@
 		AB6434201DD87287006B1BE6 /* WXBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64341F1DD87287006B1BE6 /* WXBaseViewController.swift */; };
 		AB6434221DD872B7006B1BE6 /* WXMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6434211DD872B7006B1BE6 /* WXMessageController.swift */; };
 		AB6434241DD872D0006B1BE6 /* WXFriendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6434231DD872D0006B1BE6 /* WXFriendsController.swift */; };
-		AB6434261DD872DD006B1BE6 /* WXDIscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6434251DD872DD006B1BE6 /* WXDIscoverController.swift */; };
+		AB6434261DD872DD006B1BE6 /* WXDiscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6434251DD872DD006B1BE6 /* WXDiscoverController.swift */; };
 		AB6434281DD872E8006B1BE6 /* WXProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6434271DD872E8006B1BE6 /* WXProfileController.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +28,7 @@
 		AB64341F1DD87287006B1BE6 /* WXBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXBaseViewController.swift; sourceTree = "<group>"; };
 		AB6434211DD872B7006B1BE6 /* WXMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXMessageController.swift; sourceTree = "<group>"; };
 		AB6434231DD872D0006B1BE6 /* WXFriendsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXFriendsController.swift; sourceTree = "<group>"; };
-		AB6434251DD872DD006B1BE6 /* WXDIscoverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXDIscoverController.swift; sourceTree = "<group>"; };
+		AB6434251DD872DD006B1BE6 /* WXDiscoverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXDiscoverController.swift; sourceTree = "<group>"; };
 		AB6434271DD872E8006B1BE6 /* WXProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXProfileController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,7 +109,7 @@
 		AB6434181DD8717A006B1BE6 /* DIscover(发现) */ = {
 			isa = PBXGroup;
 			children = (
-				AB6434251DD872DD006B1BE6 /* WXDIscoverController.swift */,
+				AB6434251DD872DD006B1BE6 /* WXDiscoverController.swift */,
 			);
 			name = "DIscover(发现)";
 			sourceTree = "<group>";
@@ -210,7 +210,7 @@
 				AB64341C1DD8723A006B1BE6 /* WXMainViewController.swift in Sources */,
 				AB6434201DD87287006B1BE6 /* WXBaseViewController.swift in Sources */,
 				AB6434241DD872D0006B1BE6 /* WXFriendsController.swift in Sources */,
-				AB6434261DD872DD006B1BE6 /* WXDIscoverController.swift in Sources */,
+				AB6434261DD872DD006B1BE6 /* WXDiscoverController.swift in Sources */,
 				AB6434031DD86900006B1BE6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
