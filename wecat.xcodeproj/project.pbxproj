@@ -328,6 +328,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = D238R8TN8Z;
 				INFOPLIST_FILE = wecat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -343,6 +345,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = D238R8TN8Z;
 				INFOPLIST_FILE = wecat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -372,6 +376,7 @@
 				AB6434131DD86900006B1BE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
