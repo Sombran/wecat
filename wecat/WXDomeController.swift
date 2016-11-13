@@ -1,5 +1,5 @@
 //
-//  WXBaseViewController.swift
+//  WXDomeController.swift
 //  wecat
 //
 //  Created by Ashley on 16/11/13.
@@ -8,17 +8,10 @@
 
 import UIKit
 
-class WXBaseViewController: UIViewController {
-
+class WXDomeController: WXBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        setUI()
-
-    }
-
-}
-extension WXBaseViewController{
-    func setUI(){
         
+        self.view.backgroundColor = UIColor.orange
     }
 }

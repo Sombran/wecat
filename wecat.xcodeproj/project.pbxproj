@@ -16,6 +16,7 @@
 		AB6434241DD872D0006B1BE6 /* WXFriendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6434231DD872D0006B1BE6 /* WXFriendsController.swift */; };
 		AB6434261DD872DD006B1BE6 /* WXDiscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6434251DD872DD006B1BE6 /* WXDiscoverController.swift */; };
 		AB6434281DD872E8006B1BE6 /* WXProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6434271DD872E8006B1BE6 /* WXProfileController.swift */; };
+		AB64342B1DD89663006B1BE6 /* WXDomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64342A1DD89663006B1BE6 /* WXDomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		AB6434231DD872D0006B1BE6 /* WXFriendsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXFriendsController.swift; sourceTree = "<group>"; };
 		AB6434251DD872DD006B1BE6 /* WXDiscoverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXDiscoverController.swift; sourceTree = "<group>"; };
 		AB6434271DD872E8006B1BE6 /* WXProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXProfileController.swift; sourceTree = "<group>"; };
+		AB64342A1DD89663006B1BE6 /* WXDomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXDomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,11 +127,20 @@
 		AB64341A1DD871AC006B1BE6 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				AB6434291DD89649006B1BE6 /* 测试 */,
 				AB64341B1DD8723A006B1BE6 /* WXMainViewController.swift */,
 				AB64341D1DD87262006B1BE6 /* WXNavigationController.swift */,
 				AB64341F1DD87287006B1BE6 /* WXBaseViewController.swift */,
 			);
 			name = Main;
+			sourceTree = "<group>";
+		};
+		AB6434291DD89649006B1BE6 /* 测试 */ = {
+			isa = PBXGroup;
+			children = (
+				AB64342A1DD89663006B1BE6 /* WXDomeController.swift */,
+			);
+			name = "测试";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +218,7 @@
 				AB6434281DD872E8006B1BE6 /* WXProfileController.swift in Sources */,
 				AB6434221DD872B7006B1BE6 /* WXMessageController.swift in Sources */,
 				AB64341E1DD87262006B1BE6 /* WXNavigationController.swift in Sources */,
+				AB64342B1DD89663006B1BE6 /* WXDomeController.swift in Sources */,
 				AB64341C1DD8723A006B1BE6 /* WXMainViewController.swift in Sources */,
 				AB6434201DD87287006B1BE6 /* WXBaseViewController.swift in Sources */,
 				AB6434241DD872D0006B1BE6 /* WXFriendsController.swift in Sources */,

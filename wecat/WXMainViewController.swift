@@ -46,6 +46,7 @@ extension WXMainViewController{
         vc.tabBarItem.selectedImage = UIImage(named: "tabbar_" + imageName + "HL")?.withRenderingMode(.alwaysOriginal) //渲染
         
         let nav = WXNavigationController(rootViewController: vc)
+        nav.tabBarItem.setTitleTextAttributes([NSForegroundColorAttributeName : #colorLiteral(red: 0, green: 0.8078431373, blue: 0.1803921569, alpha: 1)], for: .highlighted) //设置字体高亮颜色
         
         return nav
         
