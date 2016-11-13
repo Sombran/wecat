@@ -19,8 +19,8 @@ class WXMainViewController: UITabBarController {
 }
 extension WXMainViewController{
     func setChild(){
-        let array = [["clsName":"WXMessageController","title":"微信","imageName":""],
-                     ["clsName":"WXFriendsController","title":"通讯录","imageName":""],["clsName":"WXDiscoverController","title":"发现","imageName":""],["clsName":"WXProfileController","title":"我","imageName":""]]
+        let array = [["clsName":"WXMessageController","title":"微信","imageName":"mainframe"],
+                     ["clsName":"WXFriendsController","title":"通讯录","imageName":"contacts"],["clsName":"WXDiscoverController","title":"发现","imageName":"discover"],["clsName":"WXProfileController","title":"我","imageName":"me"]]
         
         var arrayM = [UIViewController]()
         for dict in array{
@@ -31,6 +31,7 @@ extension WXMainViewController{
     }
     
     private func controller(dict: [String:String]) -> UIViewController{
+        //取得字典内容
         guard let clsName = dict["clsName"],
         let title = dict["title"],
         let imageName = dict["imageName"],
@@ -38,10 +39,11 @@ extension WXMainViewController{
             else{
                 return UIViewController()
         }
-        
+        //创建视图控制器
         let vc = cls.init()
         vc.title = title
-        vc.tabBarItem.image = UIImage(named: imageName)
+        vc.tabBarItem.image = UIImage(named: "tabbar_" + imageName)
+        vc.tabBarItem.selectedImage = UIImage(named: "tabbar_" + imageName + "HL")?.withRenderingMode(.alwaysOriginal) //渲染
         
         let nav = WXNavigationController(rootViewController: vc)
         
