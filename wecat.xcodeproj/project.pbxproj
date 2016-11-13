@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		AB6434031DD86900006B1BE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6434021DD86900006B1BE6 /* AppDelegate.swift */; };
 		AB64340A1DD86900006B1BE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6434091DD86900006B1BE6 /* Assets.xcassets */; };
+		AB64341C1DD8723A006B1BE6 /* WXMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64341B1DD8723A006B1BE6 /* WXMainViewController.swift */; };
+		AB64341E1DD87262006B1BE6 /* WXNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64341D1DD87262006B1BE6 /* WXNavigationController.swift */; };
+		AB6434201DD87287006B1BE6 /* WXBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64341F1DD87287006B1BE6 /* WXBaseViewController.swift */; };
+		AB6434221DD872B7006B1BE6 /* WXMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6434211DD872B7006B1BE6 /* WXMessageController.swift */; };
+		AB6434241DD872D0006B1BE6 /* WXFriendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6434231DD872D0006B1BE6 /* WXFriendsController.swift */; };
+		AB6434261DD872DD006B1BE6 /* WXDIscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6434251DD872DD006B1BE6 /* WXDIscoverController.swift */; };
+		AB6434281DD872E8006B1BE6 /* WXProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6434271DD872E8006B1BE6 /* WXProfileController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +23,13 @@
 		AB6434021DD86900006B1BE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB6434091DD86900006B1BE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB64340E1DD86900006B1BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB64341B1DD8723A006B1BE6 /* WXMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXMainViewController.swift; sourceTree = "<group>"; };
+		AB64341D1DD87262006B1BE6 /* WXNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXNavigationController.swift; sourceTree = "<group>"; };
+		AB64341F1DD87287006B1BE6 /* WXBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXBaseViewController.swift; sourceTree = "<group>"; };
+		AB6434211DD872B7006B1BE6 /* WXMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXMessageController.swift; sourceTree = "<group>"; };
+		AB6434231DD872D0006B1BE6 /* WXFriendsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXFriendsController.swift; sourceTree = "<group>"; };
+		AB6434251DD872DD006B1BE6 /* WXDIscoverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXDIscoverController.swift; sourceTree = "<group>"; };
+		AB6434271DD872E8006B1BE6 /* WXProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXProfileController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,11 +62,74 @@
 		AB6434011DD86900006B1BE6 /* wecat */ = {
 			isa = PBXGroup;
 			children = (
+				AB6434141DD870FC006B1BE6 /* Classes */,
 				AB6434021DD86900006B1BE6 /* AppDelegate.swift */,
 				AB6434091DD86900006B1BE6 /* Assets.xcassets */,
 				AB64340E1DD86900006B1BE6 /* Info.plist */,
 			);
 			path = wecat;
+			sourceTree = "<group>";
+		};
+		AB6434141DD870FC006B1BE6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AB6434151DD87116006B1BE6 /* Views(试图控制器) */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		AB6434151DD87116006B1BE6 /* Views(试图控制器) */ = {
+			isa = PBXGroup;
+			children = (
+				AB64341A1DD871AC006B1BE6 /* Main */,
+				AB6434161DD87134006B1BE6 /* Message(首页) */,
+				AB6434171DD87156006B1BE6 /* Friends(通讯录) */,
+				AB6434181DD8717A006B1BE6 /* DIscover(发现) */,
+				AB6434191DD8718A006B1BE6 /* Proflie(我) */,
+			);
+			name = "Views(试图控制器)";
+			sourceTree = "<group>";
+		};
+		AB6434161DD87134006B1BE6 /* Message(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				AB6434211DD872B7006B1BE6 /* WXMessageController.swift */,
+			);
+			name = "Message(首页)";
+			sourceTree = "<group>";
+		};
+		AB6434171DD87156006B1BE6 /* Friends(通讯录) */ = {
+			isa = PBXGroup;
+			children = (
+				AB6434231DD872D0006B1BE6 /* WXFriendsController.swift */,
+			);
+			name = "Friends(通讯录)";
+			sourceTree = "<group>";
+		};
+		AB6434181DD8717A006B1BE6 /* DIscover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				AB6434251DD872DD006B1BE6 /* WXDIscoverController.swift */,
+			);
+			name = "DIscover(发现)";
+			sourceTree = "<group>";
+		};
+		AB6434191DD8718A006B1BE6 /* Proflie(我) */ = {
+			isa = PBXGroup;
+			children = (
+				AB6434271DD872E8006B1BE6 /* WXProfileController.swift */,
+			);
+			name = "Proflie(我)";
+			sourceTree = "<group>";
+		};
+		AB64341A1DD871AC006B1BE6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AB64341B1DD8723A006B1BE6 /* WXMainViewController.swift */,
+				AB64341D1DD87262006B1BE6 /* WXNavigationController.swift */,
+				AB64341F1DD87287006B1BE6 /* WXBaseViewController.swift */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,6 +158,7 @@
 		AB6433F71DD86900006B1BE6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WX;
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Ashley;
@@ -126,6 +204,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB6434281DD872E8006B1BE6 /* WXProfileController.swift in Sources */,
+				AB6434221DD872B7006B1BE6 /* WXMessageController.swift in Sources */,
+				AB64341E1DD87262006B1BE6 /* WXNavigationController.swift in Sources */,
+				AB64341C1DD8723A006B1BE6 /* WXMainViewController.swift in Sources */,
+				AB6434201DD87287006B1BE6 /* WXBaseViewController.swift in Sources */,
+				AB6434241DD872D0006B1BE6 /* WXFriendsController.swift in Sources */,
+				AB6434261DD872DD006B1BE6 /* WXDIscoverController.swift in Sources */,
 				AB6434031DD86900006B1BE6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
