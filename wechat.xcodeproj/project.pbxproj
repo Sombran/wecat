@@ -9,29 +9,30 @@
 /* Begin PBXBuildFile section */
 		AB6434031DD86900006B1BE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6434021DD86900006B1BE6 /* AppDelegate.swift */; };
 		AB64340A1DD86900006B1BE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6434091DD86900006B1BE6 /* Assets.xcassets */; };
-		AB64341C1DD8723A006B1BE6 /* WXMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64341B1DD8723A006B1BE6 /* WXMainViewController.swift */; };
-		AB64341E1DD87262006B1BE6 /* WXNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64341D1DD87262006B1BE6 /* WXNavigationController.swift */; };
-		AB6434201DD87287006B1BE6 /* WXBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64341F1DD87287006B1BE6 /* WXBaseViewController.swift */; };
-		AB6434221DD872B7006B1BE6 /* WXMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6434211DD872B7006B1BE6 /* WXMessageController.swift */; };
-		AB6434241DD872D0006B1BE6 /* WXFriendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6434231DD872D0006B1BE6 /* WXFriendsController.swift */; };
-		AB6434261DD872DD006B1BE6 /* WXDiscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6434251DD872DD006B1BE6 /* WXDiscoverController.swift */; };
-		AB6434281DD872E8006B1BE6 /* WXProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6434271DD872E8006B1BE6 /* WXProfileController.swift */; };
-		AB64342B1DD89663006B1BE6 /* WXDomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64342A1DD89663006B1BE6 /* WXDomeController.swift */; };
+		ABF5613B1DD9774100A5ED98 /* WXDiscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF5612E1DD9774100A5ED98 /* WXDiscoverController.swift */; };
+		ABF5613C1DD9774100A5ED98 /* WXFriendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF561301DD9774100A5ED98 /* WXFriendsController.swift */; };
+		ABF5613D1DD9774100A5ED98 /* WXMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF561321DD9774100A5ED98 /* WXMessageController.swift */; };
+		ABF5613E1DD9774100A5ED98 /* WXBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF561341DD9774100A5ED98 /* WXBaseViewController.swift */; };
+		ABF5613F1DD9774100A5ED98 /* WXMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF561351DD9774100A5ED98 /* WXMainViewController.swift */; };
+		ABF561401DD9774100A5ED98 /* WXNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF561361DD9774100A5ED98 /* WXNavigationController.swift */; };
+		ABF561411DD9774100A5ED98 /* WXDomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF561381DD9774100A5ED98 /* WXDomeController.swift */; };
+		ABF561421DD9774100A5ED98 /* WXProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF5613A1DD9774100A5ED98 /* WXProfileController.swift */; };
+		ABF561451DD9775B00A5ED98 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABF561441DD9775B00A5ED98 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AB6433FF1DD86900006B1BE6 /* wechat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wechat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6434021DD86900006B1BE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB6434091DD86900006B1BE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AB64340E1DD86900006B1BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB64341B1DD8723A006B1BE6 /* WXMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXMainViewController.swift; sourceTree = "<group>"; };
-		AB64341D1DD87262006B1BE6 /* WXNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXNavigationController.swift; sourceTree = "<group>"; };
-		AB64341F1DD87287006B1BE6 /* WXBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXBaseViewController.swift; sourceTree = "<group>"; };
-		AB6434211DD872B7006B1BE6 /* WXMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXMessageController.swift; sourceTree = "<group>"; };
-		AB6434231DD872D0006B1BE6 /* WXFriendsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXFriendsController.swift; sourceTree = "<group>"; };
-		AB6434251DD872DD006B1BE6 /* WXDiscoverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXDiscoverController.swift; sourceTree = "<group>"; };
-		AB6434271DD872E8006B1BE6 /* WXProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXProfileController.swift; sourceTree = "<group>"; };
-		AB64342A1DD89663006B1BE6 /* WXDomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXDomeController.swift; sourceTree = "<group>"; };
+		ABF5612E1DD9774100A5ED98 /* WXDiscoverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXDiscoverController.swift; sourceTree = "<group>"; };
+		ABF561301DD9774100A5ED98 /* WXFriendsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXFriendsController.swift; sourceTree = "<group>"; };
+		ABF561321DD9774100A5ED98 /* WXMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXMessageController.swift; sourceTree = "<group>"; };
+		ABF561341DD9774100A5ED98 /* WXBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXBaseViewController.swift; sourceTree = "<group>"; };
+		ABF561351DD9774100A5ED98 /* WXMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXMainViewController.swift; sourceTree = "<group>"; };
+		ABF561361DD9774100A5ED98 /* WXNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXNavigationController.swift; sourceTree = "<group>"; };
+		ABF561381DD9774100A5ED98 /* WXDomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXDomeController.swift; sourceTree = "<group>"; };
+		ABF5613A1DD9774100A5ED98 /* WXProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXProfileController.swift; sourceTree = "<group>"; };
+		ABF561441DD9775B00A5ED98 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,83 +65,91 @@
 		AB6434011DD86900006B1BE6 /* wechat */ = {
 			isa = PBXGroup;
 			children = (
-				AB6434141DD870FC006B1BE6 /* Classes */,
-				AB6434021DD86900006B1BE6 /* AppDelegate.swift */,
+				ABF5612B1DD9774100A5ED98 /* Classes */,
+				ABF561431DD9775B00A5ED98 /* Supporting Files */,
 				AB6434091DD86900006B1BE6 /* Assets.xcassets */,
-				AB64340E1DD86900006B1BE6 /* Info.plist */,
+				AB6434021DD86900006B1BE6 /* AppDelegate.swift */,
 			);
 			path = wechat;
 			sourceTree = "<group>";
 		};
-		AB6434141DD870FC006B1BE6 /* Classes */ = {
+		ABF5612B1DD9774100A5ED98 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				AB6434151DD87116006B1BE6 /* Views(试图控制器) */,
+				ABF5612C1DD9774100A5ED98 /* Views(试图控制器) */,
 			);
-			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		AB6434151DD87116006B1BE6 /* Views(试图控制器) */ = {
+		ABF5612C1DD9774100A5ED98 /* Views(试图控制器) */ = {
 			isa = PBXGroup;
 			children = (
-				AB64341A1DD871AC006B1BE6 /* Main */,
-				AB6434161DD87134006B1BE6 /* Message(首页) */,
-				AB6434171DD87156006B1BE6 /* Friends(通讯录) */,
-				AB6434181DD8717A006B1BE6 /* DIscover(发现) */,
-				AB6434191DD8718A006B1BE6 /* Proflie(我) */,
+				ABF561331DD9774100A5ED98 /* Mian */,
+				ABF561311DD9774100A5ED98 /* Message(首页) */,
+				ABF5612F1DD9774100A5ED98 /* Friends(通讯录) */,
+				ABF5612D1DD9774100A5ED98 /* DIscover(发现) */,
+				ABF561391DD9774100A5ED98 /* Proflie(我) */,
 			);
-			name = "Views(试图控制器)";
+			path = "Views(试图控制器)";
 			sourceTree = "<group>";
 		};
-		AB6434161DD87134006B1BE6 /* Message(首页) */ = {
+		ABF5612D1DD9774100A5ED98 /* DIscover(发现) */ = {
 			isa = PBXGroup;
 			children = (
-				AB6434211DD872B7006B1BE6 /* WXMessageController.swift */,
+				ABF5612E1DD9774100A5ED98 /* WXDiscoverController.swift */,
 			);
-			name = "Message(首页)";
+			path = "DIscover(发现)";
 			sourceTree = "<group>";
 		};
-		AB6434171DD87156006B1BE6 /* Friends(通讯录) */ = {
+		ABF5612F1DD9774100A5ED98 /* Friends(通讯录) */ = {
 			isa = PBXGroup;
 			children = (
-				AB6434231DD872D0006B1BE6 /* WXFriendsController.swift */,
+				ABF561301DD9774100A5ED98 /* WXFriendsController.swift */,
 			);
-			name = "Friends(通讯录)";
+			path = "Friends(通讯录)";
 			sourceTree = "<group>";
 		};
-		AB6434181DD8717A006B1BE6 /* DIscover(发现) */ = {
+		ABF561311DD9774100A5ED98 /* Message(首页) */ = {
 			isa = PBXGroup;
 			children = (
-				AB6434251DD872DD006B1BE6 /* WXDiscoverController.swift */,
+				ABF561321DD9774100A5ED98 /* WXMessageController.swift */,
 			);
-			name = "DIscover(发现)";
+			path = "Message(首页)";
 			sourceTree = "<group>";
 		};
-		AB6434191DD8718A006B1BE6 /* Proflie(我) */ = {
+		ABF561331DD9774100A5ED98 /* Mian */ = {
 			isa = PBXGroup;
 			children = (
-				AB6434271DD872E8006B1BE6 /* WXProfileController.swift */,
+				ABF561341DD9774100A5ED98 /* WXBaseViewController.swift */,
+				ABF561351DD9774100A5ED98 /* WXMainViewController.swift */,
+				ABF561361DD9774100A5ED98 /* WXNavigationController.swift */,
+				ABF561371DD9774100A5ED98 /* 测试 */,
 			);
-			name = "Proflie(我)";
+			path = Mian;
 			sourceTree = "<group>";
 		};
-		AB64341A1DD871AC006B1BE6 /* Main */ = {
+		ABF561371DD9774100A5ED98 /* 测试 */ = {
 			isa = PBXGroup;
 			children = (
-				AB6434291DD89649006B1BE6 /* 测试 */,
-				AB64341B1DD8723A006B1BE6 /* WXMainViewController.swift */,
-				AB64341D1DD87262006B1BE6 /* WXNavigationController.swift */,
-				AB64341F1DD87287006B1BE6 /* WXBaseViewController.swift */,
+				ABF561381DD9774100A5ED98 /* WXDomeController.swift */,
 			);
-			name = Main;
+			path = "测试";
 			sourceTree = "<group>";
 		};
-		AB6434291DD89649006B1BE6 /* 测试 */ = {
+		ABF561391DD9774100A5ED98 /* Proflie(我) */ = {
 			isa = PBXGroup;
 			children = (
-				AB64342A1DD89663006B1BE6 /* WXDomeController.swift */,
+				ABF5613A1DD9774100A5ED98 /* WXProfileController.swift */,
 			);
-			name = "测试";
+			path = "Proflie(我)";
+			sourceTree = "<group>";
+		};
+		ABF561431DD9775B00A5ED98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABF561441DD9775B00A5ED98 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +213,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABF561451DD9775B00A5ED98 /* Info.plist in Resources */,
 				AB64340A1DD86900006B1BE6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,15 +225,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB6434281DD872E8006B1BE6 /* WXProfileController.swift in Sources */,
-				AB6434221DD872B7006B1BE6 /* WXMessageController.swift in Sources */,
-				AB64341E1DD87262006B1BE6 /* WXNavigationController.swift in Sources */,
-				AB64342B1DD89663006B1BE6 /* WXDomeController.swift in Sources */,
-				AB64341C1DD8723A006B1BE6 /* WXMainViewController.swift in Sources */,
-				AB6434201DD87287006B1BE6 /* WXBaseViewController.swift in Sources */,
-				AB6434241DD872D0006B1BE6 /* WXFriendsController.swift in Sources */,
-				AB6434261DD872DD006B1BE6 /* WXDiscoverController.swift in Sources */,
+				ABF5613D1DD9774100A5ED98 /* WXMessageController.swift in Sources */,
+				ABF5613B1DD9774100A5ED98 /* WXDiscoverController.swift in Sources */,
+				ABF5613F1DD9774100A5ED98 /* WXMainViewController.swift in Sources */,
+				ABF5613E1DD9774100A5ED98 /* WXBaseViewController.swift in Sources */,
+				ABF561411DD9774100A5ED98 /* WXDomeController.swift in Sources */,
+				ABF5613C1DD9774100A5ED98 /* WXFriendsController.swift in Sources */,
+				ABF561401DD9774100A5ED98 /* WXNavigationController.swift in Sources */,
 				AB6434031DD86900006B1BE6 /* AppDelegate.swift in Sources */,
+				ABF561421DD9774100A5ED98 /* WXProfileController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +341,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = D238R8TN8Z;
-				INFOPLIST_FILE = "$(SRCROOT)/wechat/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/wechat/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wechat;
@@ -348,7 +358,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = D238R8TN8Z;
-				INFOPLIST_FILE = "$(SRCROOT)/wechat/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/wechat/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wechat;
