@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AB6433FE1DD86900006B1BE6"
-               BuildableName = "wecat.app"
-               BlueprintName = "wecat"
-               ReferencedContainer = "container:wecat.xcodeproj">
+               BuildableName = "wechat.app"
+               BlueprintName = "wechat"
+               ReferencedContainer = "container:wechat.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB6433FE1DD86900006B1BE6"
-            BuildableName = "wecat.app"
-            BlueprintName = "wecat"
-            ReferencedContainer = "container:wecat.xcodeproj">
+            BuildableName = "wechat.app"
+            BlueprintName = "wechat"
+            ReferencedContainer = "container:wechat.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB6433FE1DD86900006B1BE6"
-            BuildableName = "wecat.app"
-            BlueprintName = "wecat"
-            ReferencedContainer = "container:wecat.xcodeproj">
+            BuildableName = "wechat.app"
+            BlueprintName = "wechat"
+            ReferencedContainer = "container:wechat.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB6433FE1DD86900006B1BE6"
-            BuildableName = "wecat.app"
-            BlueprintName = "wecat"
-            ReferencedContainer = "container:wecat.xcodeproj">
+            BuildableName = "wechat.app"
+            BlueprintName = "wechat"
+            ReferencedContainer = "container:wechat.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

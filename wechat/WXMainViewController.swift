@@ -36,7 +36,7 @@ extension WXMainViewController{
         guard let clsName = dict["clsName"],
         let title = dict["title"],
         let imageName = dict["imageName"],
-        let cls = NSClassFromString("wecat."+clsName) as? UIViewController.Type
+        let cls = NSClassFromString("wechat."+clsName) as? UIViewController.Type
             else{
                 return UIViewController()
         }

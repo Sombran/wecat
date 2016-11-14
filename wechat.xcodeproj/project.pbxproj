@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AB6433FF1DD86900006B1BE6 /* wecat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wecat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6433FF1DD86900006B1BE6 /* wechat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wechat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6434021DD86900006B1BE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB6434091DD86900006B1BE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB64340E1DD86900006B1BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		AB6433F61DD86900006B1BE6 = {
 			isa = PBXGroup;
 			children = (
-				AB6434011DD86900006B1BE6 /* wecat */,
+				AB6434011DD86900006B1BE6 /* wechat */,
 				AB6434001DD86900006B1BE6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,12 +56,12 @@
 		AB6434001DD86900006B1BE6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB6433FF1DD86900006B1BE6 /* wecat.app */,
+				AB6433FF1DD86900006B1BE6 /* wechat.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AB6434011DD86900006B1BE6 /* wecat */ = {
+		AB6434011DD86900006B1BE6 /* wechat */ = {
 			isa = PBXGroup;
 			children = (
 				AB6434141DD870FC006B1BE6 /* Classes */,
@@ -69,7 +69,7 @@
 				AB6434091DD86900006B1BE6 /* Assets.xcassets */,
 				AB64340E1DD86900006B1BE6 /* Info.plist */,
 			);
-			path = wecat;
+			path = wechat;
 			sourceTree = "<group>";
 		};
 		AB6434141DD870FC006B1BE6 /* Classes */ = {
@@ -146,9 +146,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AB6433FE1DD86900006B1BE6 /* wecat */ = {
+		AB6433FE1DD86900006B1BE6 /* wechat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB6434111DD86900006B1BE6 /* Build configuration list for PBXNativeTarget "wecat" */;
+			buildConfigurationList = AB6434111DD86900006B1BE6 /* Build configuration list for PBXNativeTarget "wechat" */;
 			buildPhases = (
 				AB6433FB1DD86900006B1BE6 /* Sources */,
 				AB6433FC1DD86900006B1BE6 /* Frameworks */,
@@ -158,9 +158,9 @@
 			);
 			dependencies = (
 			);
-			name = wecat;
+			name = wechat;
 			productName = wecat;
-			productReference = AB6433FF1DD86900006B1BE6 /* wecat.app */;
+			productReference = AB6433FF1DD86900006B1BE6 /* wechat.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -181,7 +181,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AB6433FA1DD86900006B1BE6 /* Build configuration list for PBXProject "wecat" */;
+			buildConfigurationList = AB6433FA1DD86900006B1BE6 /* Build configuration list for PBXProject "wechat" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -194,7 +194,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AB6433FE1DD86900006B1BE6 /* wecat */,
+				AB6433FE1DD86900006B1BE6 /* wechat */,
 			);
 		};
 /* End PBXProject section */
@@ -331,10 +331,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = D238R8TN8Z;
-				INFOPLIST_FILE = wecat/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/wechat/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wecat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wechat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -348,10 +348,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = D238R8TN8Z;
-				INFOPLIST_FILE = wecat/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/wechat/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wecat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wechat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -360,7 +360,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AB6433FA1DD86900006B1BE6 /* Build configuration list for PBXProject "wecat" */ = {
+		AB6433FA1DD86900006B1BE6 /* Build configuration list for PBXProject "wechat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB64340F1DD86900006B1BE6 /* Debug */,
@@ -369,7 +369,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB6434111DD86900006B1BE6 /* Build configuration list for PBXNativeTarget "wecat" */ = {
+		AB6434111DD86900006B1BE6 /* Build configuration list for PBXNativeTarget "wechat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB6434121DD86900006B1BE6 /* Debug */,
