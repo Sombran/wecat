@@ -120,10 +120,10 @@
 		ABF561331DD9774100A5ED98 /* Mian */ = {
 			isa = PBXGroup;
 			children = (
+				ABF561371DD9774100A5ED98 /* 测试 */,
 				ABF561341DD9774100A5ED98 /* WXBaseViewController.swift */,
 				ABF561351DD9774100A5ED98 /* WXMainViewController.swift */,
 				ABF561361DD9774100A5ED98 /* WXNavigationController.swift */,
-				ABF561371DD9774100A5ED98 /* 测试 */,
 			);
 			path = Mian;
 			sourceTree = "<group>";
